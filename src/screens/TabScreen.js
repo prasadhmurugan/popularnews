@@ -7,7 +7,7 @@ export default class TabsExample extends Component {
   render() {
     return (
       <Container>
-        <Header style={{backgroundColor:'#009387'}} hasTabs>
+        <Header style={{backgroundColor:'#e60000'}} hasTabs>
             <Left/>
           <Body>
             <Title style={{color:'white'}}>News App</Title>
@@ -15,13 +15,13 @@ export default class TabsExample extends Component {
           <Right />
         </Header>
         <Tabs tabBarUnderlineStyle={{backgroundColor:'white'}}>
-          <Tab tabStyle={{backgroundColor:'#009387'}} activeTabStyle={{backgroundColor:'#009387'}} textStyle={{color:'white'}} activeTextStyle={{color:'white'}} heading="General">
+          <Tab tabStyle={{backgroundColor:'#e60000'}} activeTabStyle={{backgroundColor:'#e60000'}} textStyle={{color:'white'}} activeTextStyle={{color:'white'}} heading="General">
             <Tab1 />
           </Tab>
-          <Tab tabStyle={{backgroundColor:'#009387'}} activeTabStyle={{backgroundColor:'#009387'}} textStyle={{color:'white'}} activeTextStyle={{color:'white'}} heading="Business">
+          <Tab tabStyle={{backgroundColor:'#e60000'}} activeTabStyle={{backgroundColor:'#e60000'}} textStyle={{color:'white'}} activeTextStyle={{color:'white'}} heading="Business">
             <Tab2 />
           </Tab>
-          <Tab tabStyle={{backgroundColor:'#009387'}} activeTabStyle={{backgroundColor:'#009387'}} textStyle={{color:'white'}} activeTextStyle={{color:'white'}} heading="Technology">
+          <Tab tabStyle={{backgroundColor:'#e60000'}} activeTabStyle={{backgroundColor:'#e60000'}} textStyle={{color:'white'}} activeTextStyle={{color:'white'}} heading="Technology">
             <Tab3 />
           </Tab>
         </Tabs>
